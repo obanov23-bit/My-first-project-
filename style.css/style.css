@@ -1,9 +1,9 @@
 h1{
     color: lightBlue;
-    font: size 50px;
-    border:30px;
+    font-size: 50px;
+    border:30px solid transparent;
 }
 p{
-    font-size:40px;
-    color:azure
+    font-size: 20px;
+    color: midnightblye;
 }
