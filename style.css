@@ -1,1 +1,9 @@
-
+h1 {
+  color: Lightblue;
+  font-size: 50px;
+  border:30px solid transparent;
+}
+P {
+  font-size: 20px;
+  color: midnightblue;
+}
