@@ -49,3 +49,12 @@ ol li {
     color: midnightblue;
     margin-bottom: 10px;
 }
+.image-caption {
+    font-size: 16px;           
+    font-style: italic;       
+    text-align: center;        
+    color: #555555;          
+    margin-top: -10px;        
+    margin-bottom: 30px;      
+
+
