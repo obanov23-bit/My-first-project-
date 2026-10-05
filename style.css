@@ -57,4 +57,41 @@ ol li {
     margin-top: -10px;        
     margin-bottom: 30px;      
 
+.theme-btn {
+    display: block;
+    margin: 10px auto;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border: 2px solid midnightblue;
+    border-radius: 20px;
+    background-color: #fff;
+    color: midnightblue;
+    transition: all 0.3s ease;
+}
+.theme-btn:hover {
+    background-color: midnightblue;
+    color: #fff;
+}
+body.dark-theme {
+    background-color: #1a1a24;
+    color: #e0e0ff;
+}
+body.dark-theme h2 {
+    color: #e0e0ff;
+    border-bottom: 2px solid midnightblue;
+}
+body.dark-theme h1 {
+    background-color: #111118;
+    color: #e0e0ff;
+}
+body.dark-theme img {
+    border: 3px solid #111118;
+}
+body.dark-theme .image-caption {
+    color: #aaa;
+}
+body.dark-theme ol li {
+    color: #e0e0ff;
+}
 
