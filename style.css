@@ -1,9 +1,51 @@
-h1 {
-  color: Lightblue;
-  font-size: 50px;
-  border:30px solid transparent;
+body {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: sans-serif;
+    line-height: 1.6;
+    color: midnightblue;
+    background-color: #f4f7f6;
 }
-P {
-  font-size: 20px;
-  color: midnightblue;
+
+h1 {
+    color: lightblue;
+    font-size: 50px;
+    text-align: center;
+    background-color: midnightblue;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 30px;
+}
+
+h2 {
+    color: midnightblue;
+    border-bottom: 2px solid lightblue;
+    padding-bottom: 5px;
+    margin-top: 40px;
+}
+
+p {
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 25px auto;
+    border: 3px solid lightblue;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+ol {
+    padding-left: 20px;
+}
+
+ol li {
+    font-size: 20px;
+    color: midnightblue;
+    margin-bottom: 10px;
 }
