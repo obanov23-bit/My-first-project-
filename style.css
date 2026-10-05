@@ -6,14 +6,15 @@ body {
     line-height: 1.6;
     color: midnightblue;
     background-color: #f4f7f6;
+    transition: background-color 0.3s ease, color 0.3s ease;
 }
 
 h1 {
     color: lightblue;
-    font-size: 50px;
+    font-size: 42px;
     text-align: center;
     background-color: midnightblue;
-    padding: 20px;
+    padding: 25px;
     border-radius: 8px;
     margin-bottom: 30px;
 }
@@ -49,6 +50,7 @@ ol li {
     color: midnightblue;
     margin-bottom: 10px;
 }
+
 .image-caption {
     font-size: 16px;           
     font-style: italic;       
@@ -56,6 +58,7 @@ ol li {
     color: #555555;          
     margin-top: -10px;        
     margin-bottom: 30px;      
+}
 
 .theme-btn {
     display: block;
@@ -69,29 +72,37 @@ ol li {
     color: midnightblue;
     transition: all 0.3s ease;
 }
+
 .theme-btn:hover {
     background-color: midnightblue;
     color: #fff;
 }
+
 body.dark-theme {
     background-color: #1a1a24;
     color: #e0e0ff;
 }
+
 body.dark-theme h2 {
     color: #e0e0ff;
     border-bottom: 2px solid midnightblue;
 }
+
 body.dark-theme h1 {
     background-color: #111118;
     color: #e0e0ff;
 }
+
 body.dark-theme img {
     border: 3px solid #111118;
 }
+
 body.dark-theme .image-caption {
     color: #aaa;
 }
+
 body.dark-theme ol li {
     color: #e0e0ff;
 }
+
 
