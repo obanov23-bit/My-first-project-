@@ -91,6 +91,11 @@ body.dark-theme h2 {
 body.dark-theme h1 {
     background-color: #111118;
     color: #e0e0ff;
+    font-size: 42px;
+    text-align: center;
+    padding: 25px;
+    border-radius: 8px;
+    margin-bottom: 30px;
 }
 
 body.dark-theme img {
@@ -104,5 +109,4 @@ body.dark-theme .image-caption {
 body.dark-theme ol li {
     color: #e0e0ff;
 }
-
 
